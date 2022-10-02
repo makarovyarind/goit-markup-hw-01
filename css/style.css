@@ -1,0 +1,149 @@
+:root {
+    --color-pimery: #212121;
+    --color-secondary: #757575;
+}
+body {
+    color: var(--color-primery);
+    font-family: 'Roboto', 'Raleway', sans-serif;
+    font-size: 14px;
+    line-height: 1.1428;
+    background-color: #fff;
+}
+.menu {
+    background-color: #fff;
+}
+.logo {
+    font-family: 'Raleway';
+    text-decoration: none;
+    font-size: 26px;
+    line-height: 1.1923;
+    font-weight:700;
+    
+}
+.logo-blue {
+    color: #2196F3;
+    text-transform: capitalize;
+}
+.logo-black {
+    color: var(--color-pimery);
+    text-transform: capitalize;
+}
+.logo-black-upper {
+    color: var(--color-pimery);
+    text-transform: uppercase;
+}
+.logo-white {
+    color: #fff;
+    text-transform: capitalize;
+}
+.logo-white-upper {
+    color: #fff;
+    text-transform: uppercase;
+}
+.menu-link {
+    text-decoration: none;
+    color: var(--color-pimery);
+    font-weight: 500;
+}
+.menu-link:hover {
+    color: #2196f3;
+}
+.menu-link:focus {
+    color: #2196f3;
+}
+.contacts {
+    text-decoration: none;
+    color: var(--color-secondary);
+    font-weight: 500;
+}
+.contacts:hover {
+    color: #2196F3;
+}
+
+.contacts:focus {
+    color: #2196F3;
+}
+.block-first {
+    background-color: #2f303a;
+}
+.block-second {
+    background-color: #fff;
+}
+.block-third {
+    background-color: #F5F4FA;
+}
+.title {
+    color: #fff;
+    font-size: 44px;
+    line-height: 1.3636;
+    text-align: center;
+    text-transform: uppercase;
+    font-weight: 900;
+}
+.title-secondary {
+    color: var(--color-pimery);
+    font-size: 36px;
+    line-height: 1.1667;
+    font-weight: 700;
+    text-align: center;
+}
+.title-third {
+    font-weight: 700;
+    text-transform: uppercase;
+}
+.title-imagine {
+    color: var(--color-pimery);
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 2;
+}
+.title-imagine-sub {
+    color: var(--color-secondary);
+    font-size: 16px;
+    line-height: 1.875;
+}
+.button {
+    width: 216px;
+    height: 50px;
+    background-color: #2196F3;
+    color: #FFF;
+    text-align: center;
+    cursor: pointer;
+    border: 0px;
+}
+.button:hover {
+    background-color: #188CE8;
+}
+.button-filter {
+    background-color: #F5F4FA;
+    border: 0px;
+    color: var(--color-pimery);
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 1.625;
+}
+.button-filter:hover {
+    background-color: #2196F3;
+    color: #fff;
+    border: 0px;
+}
+.button-filter:focus {
+    background-color: #2196F3;
+    color: #fff;
+    border: 0px;
+}
+.text-paragraph {
+    color: var(--color-secondary);
+    line-height: 1.7142;
+}
+.team-background {
+    background-color: #fff;
+}
+.footer{
+    background-color: #2F303A;
+}
+.address {
+    color: #fff;
+    line-height: 1.7114;
+    font-style: normal;
+}
